@@ -10,13 +10,25 @@ body{
 	/*ukuran harus sama dengan height di footer*/
 }
 
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .jumbotron {
 	background-image: url('../img/gambar-bg.jpg');
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 0 -200px;
-	height: 500px;
+	background-position: 0 -100px;
+	height: 500px;	
+}
 
+.jumbotron h1{
+	color: white;
+}
+
+.jumbotron p{
+	color: white;
 }
 
 .jumbotron img{
