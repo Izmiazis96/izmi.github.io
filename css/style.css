@@ -7,7 +7,12 @@ body{
 	margin-bottom: 120px;
 	margin-top: 30px;
 
+
 	/*ukuran harus sama dengan height di footer*/
+}
+
+nav{
+	overflow-x:hidden;
 }
 
 .container-fluid{
@@ -15,12 +20,18 @@ body{
 	padding-right: 0;
 }
 
+/*@media (max-width: 575.98px) {
+	.jumbotron{
+		background-position: 0 -50px;
+	}
+}*/
 .jumbotron {
 	background-image: url('../img/gambar-bg.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0 -100px;
-	height: 500px;	
+	height: 500px;
+
 }
 
 .jumbotron h1{
